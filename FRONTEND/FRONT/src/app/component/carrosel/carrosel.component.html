@@ -1,0 +1,19 @@
+<div class=" grid grid-cols-3 gap-8 m-5 " >
+
+<section *ngFor="let i of dados" class="shadow"> 
+    <div class="">
+        <a href="#"><img src="https://www.blogaviagem.com/wp-content/uploads/2023/10/IMG_8502-jpeg.webp" alt="" class="h-50 w-50"></a>
+    </div>
+
+    <div class="p-5">
+        <a routerLink="/lista/{{ i.id }}">
+            <h1 class="text-green-800 text-4xl text-center mt-5 mb-5">{{i.nome}}</h1>
+        </a>
+        <!-- <p class="text-1xl text-gray-500 mb-5">{{ i.desc}}</p>-->
+        
+        <!--<span class="text-center text-green-800 text-2xl"> {{i.pais}} | {{i.cidade}}</span>
+        --></div>
+    
+</section>
+
+</div>

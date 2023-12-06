@@ -1,0 +1,31 @@
+div{
+    color: antiquewhite;
+    /*border: 1px red solid;*/
+    height: 40px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: tomato;
+    margin-left: 80px;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: 'ubuntu';
+    text-shadow: none;
+    margin-top: 50px;
+}
+
+a:hover{
+    text-shadow: 1px 1px gray;
+    font-size: 35px;
+}
+.im > img{
+    width: 200px;
+    height: 150px;
+    margin-top: 180px;
+}
